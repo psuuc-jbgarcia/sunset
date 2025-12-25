@@ -205,7 +205,7 @@ function drawBirds(){
 
 // ==== Show funny image every 8 seconds with fade ====
 setInterval(() => {
-    showImage = true;
+    // showImage = true;
     imgOpacity = 0;
     let fadeInterval = setInterval(()=>{
         imgOpacity += 0.02;
